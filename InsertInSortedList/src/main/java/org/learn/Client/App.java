@@ -12,7 +12,7 @@ public class App
 		for(int count = 1; count < listData.length; count++)
 			InsertInSortedList.prepareList(head,listData[count]);
 		
-		System.out.printf("Linked list 1 is : ");
+		System.out.printf("Linked list is : ");
 		InsertInSortedList.print(head);
 		
 		int newData = 4;
